@@ -33,6 +33,7 @@ def login_page():
         print(f"{login_form.validate_on_submit()}")
         print(f"{login_form.email.data} ")
         print(f"{login_form.password.data} ")
+        print("im editing this")
     return render_template('login.html', form=login_form)
 
 
